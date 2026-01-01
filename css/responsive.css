@@ -1,0 +1,215 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variable Define */
+:root {
+  --primary-color: #ffa323;
+  --secondary-color: #f41f31;
+  --white-color: #fff;
+  --black-color: #0a0a0a;
+  --bg-gray-color: #f5f5f5;
+
+  /* Text color variable */
+  --text-primary: #ffa323;
+  --text-secondary: #f41f31;
+  --text-white: #fff;
+  --text-black: #0a0a0a;
+  --text-color: #545454;
+  --text-gray: #aba8b0;
+  --text-gray-light: #484848;
+
+  /* Font Family */
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Nunito Sans", sans-serif;
+}
+
+
+@media (max-width: 1200px) {
+  /* custom css */ 
+  h1 {
+    font-size: 2.1875rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+  p,
+  a {
+    font-size: .875rem;
+    line-height: 1.2rem;
+  }
+  .main-btn {
+    padding: .5rem .9375rem;
+  }
+
+  .wrapper {
+    padding-top: 4.25rem;
+    padding-bottom: 3.25rem;
+  }
+
+  /* navbar design */
+
+  .navigation-wrap .navbar-brand img {
+    width: 6.25rem;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: .875rem;
+  } 
+
+  /* services section */
+
+  .service-section .service-cards{
+    margin-top: 4.4286rem;
+  }
+
+  .service-section .card{
+    padding: 3.4375rem 0 0;
+    margin-bottom: 1.25rem;
+  }
+
+  .service-section .card img{
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  /* custom css */
+  p,
+  a {
+    font-size: .75rem;
+  }
+  /* navbar  */
+  .header-top {
+    display: none;
+  }
+
+  .navbar .navbar-toggler {
+    color: var(--text-white);
+  }
+  .navbar .main-btn {
+    margin: .625rem 0;
+  }
+  .navigation-wrap {
+    text-align: center;
+    background-color: var(--black-color);
+  }
+
+  .navigation-wrap .nav-link {
+    line-height: 1.875rem;
+  }
+
+  /* Banner Design */
+  .top-banner {
+    padding: 6.375rem 0 4.375rem;
+  } 
+
+  /* About Section */
+
+  .about-section{
+    text-align: center;
+  }
+
+  .about-section span::after{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Features Section */
+
+  .feature-section .card .price{
+    font-size: 1.25rem;
+  }
+
+  /* Newsletter Section */
+
+  .newsletter .form-group input{
+    height: 3.2857rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* custom css */
+  h1 {
+    font-size: 1.5625rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: .875rem;
+  }
+
+  .main-btn{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 0.5rem 0.625rem;
+  }
+
+  .wrapper{
+    padding-top: 3.25rem;
+    padding-bottom: 2.25rem;
+  }
+
+  /* Services Section */
+
+  .service-section .card{
+    margin-bottom: 2.5rem;
+  }
+
+  .service-section .card img{
+    left: 41%;
+  }
+
+    /* Features Section */
+
+  .feature-section .card .price{
+    font-size: 0.875rem;
+  }
+
+  /* Download App Section */
+
+  .download-app-btn img{
+    max-width: 9rem;
+    width: 100%;
+  }
+
+  /* Footer Section */
+
+  .footer .footer-link, 
+  .footer a i{
+    padding: 0.3rem 0.77rem;
+  }
+
+  .footer a{
+    padding: 0 0.5rem;
+  }
+
+}
